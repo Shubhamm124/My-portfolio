@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(114, 109, 109);
+}
+#bold{
+    margin-left: 100px;
+}
+h1{
+    font-size: 40px;
+}
+.flex-container{
+    background-color: rgb(87, 107, 223);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-item{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.flex-con{
+    background-color: rgb(99, 177, 140);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-it{
+    width: 290px;
+    height: 250px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.skills{
+    background-color: rgb(114, 109, 109);
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+.skills-item{
+    width: 90px;
+    height: 50px;
+    color: rgb(189, 73, 73);
+    font-size: 23px;
+    background-color: rgb(231, 201, 162);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.parent{
+    background-color: rgb(114, 109, 109);
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.child{
+    color: rgb(46, 15, 223);
+    font-size: 23px;
+}
+.box{
+    background-color: rgb(238, 81, 9);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 40px;
+}
+.box-item{
+    width: 370px;
+    height: 250px;
+    color: rgb(238, 235, 82);
+    background-color: rgb(234, 238, 25);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.contact {
+    display: grid;
+    grid-template: 150px / auto auto ;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+.add {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.contact1{
+text-align: center;
+color: #2196F3;
+text-decoration: underline;
+}
+.connect{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+    justify-content: center;
+}
+.number{
+    border-radius: 10px;
+    border: white 1px solid;
+    background-color: antiquewhite;
+    padding: 15px 15px;
+    text-align: center;
+}
+.detail{
+    margin: 10px;
+    width: 300px;
+    background-color:snow;
+    height: 30px;
+    padding: 8px;
+    border-radius: 10px ;
+}
+#message{
+background-color:rgb(19, 236, 48);
+color: azure;
+text-align: center;
+border-radius: 8px;
+padding: 8px;
+width:100px;
+content: counter('Message');
+}
+#ME{
+    text-align: center;
+    text-decoration: underline;
+    color: deepskyblue;
+}
+#mail{
+    text-align: start;
+    background-color: rgb(216, 150, 224);
+}
+#gray{
+    background-color: rgb(216, 150, 224);
+    text-align: start;
+}
+.material-symbols-outlined{
+    font-weight: lighter;
+}
+.sub{
+    color: rgb(0, 0, 0);
+}
